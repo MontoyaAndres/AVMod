@@ -60,6 +60,12 @@ Si no inicia, windows instalara .Net. Al iniciar el programa este detectara si N
 
 Vídeo
 
+# ¿Cómo fue creado?
+
+Puedes leer todo el código fuente aquí:
+
+-https://github.com/Spyrock/AVMod-OpenSource-Code-
+
 # Contacto
 
 - Twitter: @AndresMontoyaIN
