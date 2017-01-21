@@ -2,7 +2,7 @@
 [![Lenguaje](https://img.shields.io/badge/C%23-2017-yellow.svg)]()
 [![Licencia](https://img.shields.io/badge/Licencia-GPL--3.0-green.svg)]()
 [![version](https://img.shields.io/badge/Version-2.0-red.svg)]()
-# AVMod-OpenSource-Code
+# AVMod2
 
 La intención de este proyecto es dar a conocer lo importante y necesario que es cuidarse en internet. El creador no se hara responsable de cualquier uso mal intencionado o en contra de la ley.
 
