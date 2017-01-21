@@ -4,6 +4,8 @@
 [![version](https://img.shields.io/badge/Version-2.0-red.svg)]()
 # AVMod2
 
+[![Capture.png](https://s30.postimg.org/rheiywz5d/Capture.png)](https://postimg.org/image/clfzrbnql/)
+
 La intención de este proyecto es dar a conocer lo importante y necesario que es cuidarse en internet. El creador no se hara responsable de cualquier uso mal intencionado o en contra de la ley.
 
 # ¿Qué es?
