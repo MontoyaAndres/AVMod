@@ -6,11 +6,11 @@
 
 [![Capture.png](https://s30.postimg.org/rheiywz5d/Capture.png)](https://postimg.org/image/clfzrbnql/)
 
-La intención de este proyecto es dar a conocer lo importante y necesario que es cuidarse en internet. El creador no se hara responsable de cualquier uso mal intencionado o en contra de la ley.
+La intención de este proyecto es dar a conocer lo importante y necesario que es cuidarse en internet. El creador no se hará responsable de cualquier uso mal intencionado o en contra de la ley.
 
 # ¿Qué es?
 
-El fin de avmod es lograr dar a entender que los AntiVirus no son la manera más segura de estar protegido. Con unas 8 lineas de código o menos, pueden ser espiados con facilidad. Al iniciar el programa se tendra que aceptar los terminos y condiciones que este ofrece, despues se ingresa una IP local o publica y un puerto. Se selecciona el sistema a atacar y este generara el Backdoor deseado.
+El fin de avmod es lograr dar a entender que los AntiVirus no son la manera más segura de estar protegido. Con unas 8 líneas de código o menos, pueden ser espiados con facilidad. Al iniciar el programa se tendrá que aceptar los términos y condiciones que este ofrece, después se ingresa una IP local o publica y un puerto. Se selecciona el sistema a atacar y este generara el Backdoor deseado.
 
 # Dependencias
 
