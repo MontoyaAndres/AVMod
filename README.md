@@ -36,6 +36,7 @@ Si no inicia, windows instalara .Net. Al iniciar el programa este detectara si N
 No se recomienda iniciar AVMod con Wine. Al iniciar el programa este exigira la instalación de Golang.
 
 - Instalación Golang Linux:
+
     wget https://golang.org/doc/install?download=go1.7.5.linux-amd64.tar.gz
     tar -xf go*.tar.gz
     mv go /opt/
@@ -48,6 +49,7 @@ No se recomienda iniciar AVMod con Wine. Al iniciar el programa este exigira la 
     export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
 
 - Instalación Mono Linux:
+
     sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
     echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee /etc/apt/sources.list.d/mono-xamarin.list
     sudo apt-get update
