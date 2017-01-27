@@ -12,13 +12,13 @@ La intención de este proyecto es dar a conocer lo importante y necesario que es
 
 El fin de avmod es lograr dar a entender que los AntiVirus no son la manera más segura de estar protegido. Con unas 8 líneas de código o menos, pueden ser espiados con facilidad. Al iniciar el programa se tendrá que aceptar los términos y condiciones que este ofrece, después se ingresa una IP local o publica y un puerto. Se selecciona el sistema a atacar y este generara el Backdoor deseado.
 
-# Dependencias
+# Dependencias Windows
 
 - Golang
 - .NET Framework 4.5.2
 - Netcat
 
-# Instalación Dependencias
+# Instalación Dependencias Windows
 
 Si no inicia, windows instalara .Net. Al iniciar el programa este detectara si Netcat o Golang estan instalados, si no es así, los exigirá.
 
@@ -26,6 +26,32 @@ Si no inicia, windows instalara .Net. Al iniciar el programa este detectara si N
 
 - Netcat: https://eternallybored.org/misc/netcat/
 
+# Dependencias Linux
+
+- Golang
+- Mono C#
+
+# Instalación Dependencias Linux
+
+No se recomienda iniciar AVMod con Wine. Al iniciar el programa este exigira la instalación de Golang.
+
+- Instalación Golang Linux:
+    wget https://golang.org/doc/install?download=go1.7.5.linux-amd64.tar.gz
+    tar -xf go*.tar.gz
+    mv go /opt/
+    mkdir /opt/gopkg 
+    export GOPATH="/opt/gopkg" 
+    export GOROOT="/opt/go"
+    echo export GOPATH=/opt/gopkg >> ~/.bashrc 
+    echo export GOROOT=/opt/go >> ~/.bashrc 
+    echo export PATH=$PATH:$GOROOT/bin:$GOPATH/bin >> ~/.bashrc
+    export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
+
+- Instalación Mono Linux:
+    sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+    echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee /etc/apt/sources.list.d/mono-xamarin.list
+    sudo apt-get update
+    sudo apt-get mono-complete
 
 # Testeado en 
 
@@ -48,17 +74,21 @@ Si no inicia, windows instalara .Net. Al iniciar el programa este detectara si N
     </tr>
     <tr>
         <td>Ubuntu</td>
-        <td> Pronto </td>
+        <td> Excelente </td>
     </tr>
     <tr>
         <td>Debian</td>
-        <td> Pronto </td>
+        <td> Excelente </td>
     </tr>
 </table>
 
-# Demostración
+# Demostración Windows
 
 [![AVMod2 | Crea un backdoor completamente indetectable en menos de 1 minuto. )](https://s29.postimg.org/e2brrl4iv/Capture.png)](https://www.youtube.com/watch?v=r2AZSEqbFpQ&feature=youtu.be "AVMod2 | Crea un backdoor completamente indetectable en menos de 1 minuto.")
+
+# Demostración Linux
+
+Vídeo
 
 # ¿Cómo fue creado?
 
