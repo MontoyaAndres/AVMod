@@ -14,7 +14,7 @@ El fin de avmod es lograr dar a entender que los AntiVirus no son la manera más
 
 # Descarga
 
-Descarga aquí AVMod2 [![AVMod2 | Backdoors completamente indetectables )](http://icons.iconarchive.com/icons/webalys/kameleon.pics/16/Download-Computer-icon.png)](https://github.com/Spyrock/AVMod2/tree/master/AVMod2/bin/Debug "AVMod2 | Backdoors completamente indetectables.") Solo descarga los archivos AVMod2.exe y nc.exe :p
+Descarga aquí AVMod2 [![AVMod2 | Backdoors completamente indetectables )](http://icons.iconarchive.com/icons/webalys/kameleon.pics/16/Download-Computer-icon.png)](https://github.com/Spyrock/AVMod2/tree/master/AVMod2/bin/Debug "AVMod2 | Backdoors completamente indetectables.") Solo descarga los archivos AVMod2.exe y nc.exe.
 
 # Dependencias Windows
 
