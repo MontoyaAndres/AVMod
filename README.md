@@ -2,7 +2,7 @@
 [![Lenguaje](https://img.shields.io/badge/C%23-2017-yellow.svg)]()
 [![Licencia](https://img.shields.io/badge/Licencia-GPL--3.0-green.svg)]()
 [![version](https://img.shields.io/badge/Version-2.0-red.svg)]()
-# AVMod2
+# AVMod2-OpenSource-Code
 
 [![Capture.png](https://s30.postimg.org/rheiywz5d/Capture.png)](https://postimg.org/image/clfzrbnql/)
 
