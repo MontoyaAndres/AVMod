@@ -12,6 +12,10 @@ La intención de este proyecto es dar a conocer lo importante y necesario que es
 
 El fin de avmod es lograr dar a entender que los AntiVirus no son la manera más segura de estar protegido. Con unas 8 líneas de código o menos, pueden ser espiados con facilidad. Al iniciar el programa se tendrá que aceptar los términos y condiciones que este ofrece, después se ingresa una IP local o publica y un puerto. Se selecciona el sistema a atacar y este generara el Backdoor deseado.
 
+# Descarga
+
+Descarga aquí AVMod2 [![AVMod2 | Backdoors completamente indetectables )](http://icons.iconarchive.com/icons/webalys/kameleon.pics/24/Download-Computer-icon.png)](https://github.com/Spyrock/AVMod2/tree/master/AVMod2/bin/Debug "AVMod2 | Backdoors completamente indetectables.")
+
 # Dependencias Windows
 
 - Golang
@@ -94,9 +98,7 @@ Instalación Mono Linux:
 
 # ¿Cómo fue creado?
 
-Puedes leer todo el código fuente aquí:
-
--https://github.com/Spyrock/AVMod-OpenSource-Code-
+Todo el código fuente se ofrece desde este repositorio.
 
 # Contacto
 
