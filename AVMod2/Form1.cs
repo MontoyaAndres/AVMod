@@ -78,7 +78,7 @@ namespace AVMod2
         }
         private void cerrar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.ExitThread();
         }
 
         private void cerrar_MouseHover(object sender, EventArgs e)
